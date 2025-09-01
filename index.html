@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test</title>
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+div.logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #002e66;
+    color: white;
+    padding: 1rem;
+    max-width: 300px;
+}
+
+div.logo h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    width: 50%;
+    max-width: 100%;
+    margin: 100px auto 0 auto;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 140px;
+    }
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 0.2rem;
+}
+</style>
+</head>
+<body>
+<div class="logo">
+    <h1>European Association for <br> Information Technology and <br> Autonomy</h1>
+</div>
+<main>
+    <h2>Prologue</h2>
+    <p>The European Association of Information Technology and Autonomy (EAITA) acts as a front for Europe's interests in the field of information technology, while safeguarding its cultural traditions. It unites stakeholders in joint initiatives that advance cooperation, public policy and practical action.</p>
+</main>
+<footer>
+    <p>&copy; 2025</p>
+</footer>
+</body>
+</html>
